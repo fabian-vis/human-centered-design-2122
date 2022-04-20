@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Commands</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/script.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Voice Assistent</h1>
+        <!-- (B) DEMO BUTTON -->
+        <input type="button" id="vbtn" value="Loading" disabled />
+
+        <!-- (A) DEMO WRAPPER -->
+        <div class="tekstje">
+            <img src="./img/microfoon.png" alt="microfoon icoon" id="voiceimg">
+            <p id="vwrap"></p>
+        </div>
+
+        <section>
+            <div>
+                <h3>Probeer kopieer artikel 1</h3>
+                <textarea id="textArea1">We are learning to copy text to clipboard in JavaScript.</textarea>
+            </div>
+            <div>
+                <h3>Probeer plak artikel 1</h3>
+                <textarea id="kopieerArea1"></textarea>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>Probeer kopieer artikel 2</h3>
+                <textarea id="textArea2">Hier staat ook wat onzin tekst</textarea>
+            </div>
+            <div>
+                <h3>Probeer plak artikel 2</h3>
+                <textarea id="kopieerArea2"></textarea>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
