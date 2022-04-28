@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script type="module" src="./js/script.js"></script>
 </head>
@@ -26,24 +29,32 @@
 
         <section>
             <div>
-                <h3>Probeer kopieer artikel 1</h3>
-                <textarea id="textArea1">We are learning to copy text to clipboard in JavaScript.</textarea>
+                <h3>Zeg: kopieer a1</h3>
+                <textarea id="textArea1">Ik heb hier wat tekst neergezet. Deze tekst is ook aanpasbaar!</textarea>
             </div>
             <div>
-                <h3>Probeer plak artikel 1</h3>
+                <h3>Zeg: plak a1</h3>
                 <textarea id="kopieerArea1"></textarea>
             </div>
         </section>
         <section>
             <div>
-                <h3>Probeer kopieer artikel 2</h3>
-                <textarea id="textArea2">Hier staat ook wat onzin tekst</textarea>
+                <h3>Zeg: kopieer a2</h3>
+                <textarea id="textArea2">Hier staat ook wat tekst die aanpasbaar is.</textarea>
             </div>
             <div>
-                <h3>Probeer plak artikel 2</h3>
+                <h3>Zeg: plak a2</h3>
                 <textarea id="kopieerArea2"></textarea>
             </div>
         </section>
+        <div id="searchBox">
+            <input type="text" id="input" placeholder="Search" />
+            <input type="button" id="searchBtn" value="Search" />
+        </div>
+        <div id="content">
+            <p id="p" contenteditable="true">
+            </p>
+        </div>
     </main>
 </body>
 

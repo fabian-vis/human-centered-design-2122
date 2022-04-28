@@ -44,10 +44,13 @@ main h1 {
 main section div {
     width: calc(50% - 20px);
     height: 150px;
-    margin-top: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     }
 main section div h3 {
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 1em;
 }
 
 main section div textarea {
@@ -114,4 +117,41 @@ main section div textarea {
 
 #vbtn:focus {
   box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+#searchBox {
+    margin-top: 1em;
+    width:40%;
+    height: 50px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-flow: row nowrap;
+}
+#input {
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+}
+#searchBtn {
+    width: 20%;
+}
+input {
+    font-size: 20px;
+}
+
+#content {
+    width: 40%;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+#p {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: black;
+    padding: 12px 20px;
 }

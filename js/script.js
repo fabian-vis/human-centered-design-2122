@@ -24,6 +24,12 @@ var voice = {
                 // (A4) ON SPEECH RECOGNITION - RUN CORRESPONDING COMMAND
                 voice.recog.onresult = (evt) => {
                     let said = evt.results[0][0].transcript.toLowerCase();
+                    let input = said
+                    let inputtext = document.getElementById("input")
+
+                    inputtext.value = said
+
+                    console.log(input)
                     if (cmd[said]) {
                         cmd[said]();
                     } else {
@@ -76,13 +82,13 @@ var cmd = {
         voice.wrap.style.backgroundColor = "black";
         voice.wrap.style.color = "white";
     },
-    "kopieer artikel 1": () => {
+    "kopieer a1": () => {
         var content = document.getElementById('textArea1');
         content.select();
         document.execCommand('copy');
         alert("Artikel 1 gekopieerd!");
     },
-    "plak artikel 1": () => {
+    "plak a1": () => {
         navigator.clipboard
             .readText()
             .then(
@@ -92,22 +98,47 @@ var cmd = {
                 // bron https://javascript.plainenglish.io/how-to-copy-paste-text-into-clipboard-using-javascript-1bb5f96325e8
             );
     },
-    "kopieer artikel 2": () => {
+    "kopieer a2": () => {
         var content = document.getElementById('textArea2');
         content.select();
         document.execCommand('copy');
         alert("Artikel 2 gekopieerd!");
     },
-    "plak artikel 2": () => {
+    "plak a2": () => {
         navigator.clipboard
             .readText()
             .then(
                 cliptext =>
                 (document.getElementById('kopieerArea2').innerText = cliptext),
                 err => console.log(err)
-                // bron https://javascript.plainenglish.io/how-to-copy-paste-text-into-clipboard-using-javascript-1bb5f96325e8
             );
-    }
+    },
+    "plak hier": () => {
+        navigator.clipboard
+            .readText()
+            .then(
+                cliptext =>
+                (document.getElementById('p').innerText = cliptext),
+                err => console.log(err)
+            );
+    },
+
+
 };
 
+
 // bron https://code-boxx.com/voice-commands-javascript-speech-recognition/#sec-download
+const p = document.getElementById("p")
+const tekst = document.getElementById("textArea1")
+const special = /[\\[{().+*?|^$]/g;
+const element = document.getElementById('searchBtn')
+
+element.addEventListener("click", () => {
+    let input = document.getElementById("input").value
+
+    if (input !== "") {
+        if (special.test(input)) input.replace(special, "\\$&")
+        let regExp = new RegExp(input, "gi");
+        p.innerHTML = (p.textContent).replace(regExp, "<mark>$&</mark>")
+    }
+});
