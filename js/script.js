@@ -7,7 +7,8 @@ var voice = {
         // (A1) GET HTML ELEMENTS
         voice.wrap = document.getElementById("vwrap");
         voice.btn = document.getElementById("vbtn");
-        voice.img = document.getElementById("voiceimg");
+        // voice.img = document.getElementById("voiceimg");
+        voice.goblin = document.querySelector(".goblintime")
 
         // (A2) GET MIC ACCESS PERMISSION
         navigator.mediaDevices.getUserMedia({
@@ -33,9 +34,9 @@ var voice = {
                     if (cmd[said]) {
                         cmd[said]();
                     } else {
-                        said += " (niet gevonden, probeer het opnieuw)";
+                        said += " ( is geen commando, probeer het opnieuw )";
                     }
-                    voice.img.style.display = "block";
+                    // voice.img.style.display = "block";
                     voice.wrap.innerHTML = said;
                     voice.stop();
                 };
@@ -60,6 +61,8 @@ var voice = {
         voice.recog.start();
         voice.btn.onclick = voice.stop;
         voice.btn.value = "Praat nu, klik om te stoppen";
+        voice.btn.classList.add("groenbtn");
+        voice.goblin.classList.add("goblinpause");
     },
 
     // (C) STOP/CANCEL SPEECH RECOGNITION
@@ -67,6 +70,8 @@ var voice = {
         voice.recog.stop();
         voice.btn.onclick = voice.start;
         voice.btn.value = "Klik en begin met praten";
+        voice.btn.classList.remove("groenbtn");
+        voice.goblin.classList.remove("goblinpause");
     }
 };
 window.addEventListener("DOMContentLoaded", voice.init);
@@ -82,38 +87,26 @@ var cmd = {
         voice.wrap.style.backgroundColor = "black";
         voice.wrap.style.color = "white";
     },
-    "kopieer a1": () => {
+    "kopieer": () => {
         var content = document.getElementById('textArea1');
         content.select();
         document.execCommand('copy');
-        alert("Artikel 1 gekopieerd!");
+        content.classList.add("kopieer");
+        setTimeout(function () {
+            content.classList.remove("kopieer")
+        }, 2000);
     },
-    "plak a1": () => {
-        navigator.clipboard
-            .readText()
-            .then(
-                cliptext =>
-                (document.getElementById('kopieerArea1').innerText = cliptext),
-                err => console.log(err)
-                // bron https://javascript.plainenglish.io/how-to-copy-paste-text-into-clipboard-using-javascript-1bb5f96325e8
-            );
-    },
-    "kopieer a2": () => {
-        var content = document.getElementById('textArea2');
-        content.select();
-        document.execCommand('copy');
-        alert("Artikel 2 gekopieerd!");
-    },
-    "plak a2": () => {
-        navigator.clipboard
-            .readText()
-            .then(
-                cliptext =>
-                (document.getElementById('kopieerArea2').innerText = cliptext),
-                err => console.log(err)
-            );
-    },
-    "plak hier": () => {
+    // "plak a1": () => {
+    //     navigator.clipboard
+    //         .readText()
+    //         .then(
+    //             cliptext =>
+    //             (document.getElementById('kopieerArea1').innerText = cliptext),
+    //             err => console.log(err)
+    //             // bron https://javascript.plainenglish.io/how-to-copy-paste-text-into-clipboard-using-javascript-1bb5f96325e8
+    //         );
+    // },
+    "plak": () => {
         navigator.clipboard
             .readText()
             .then(

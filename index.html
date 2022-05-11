@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Skranji:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script type="module" src="./js/script.js"></script>
 </head>
@@ -23,37 +27,32 @@
 
         <!-- (A) DEMO WRAPPER -->
         <div class="tekstje">
-            <img src="./img/microfoon.png" alt="microfoon icoon" id="voiceimg">
+            <!-- <img src="./img/microfoon.png" alt="microfoon icoon" id="voiceimg"> -->
             <p id="vwrap"></p>
         </div>
-
-        <section>
-            <div>
-                <h3>Zeg: kopieer a1</h3>
-                <textarea id="textArea1">Ik heb hier wat tekst neergezet. Deze tekst is ook aanpasbaar!</textarea>
-            </div>
-            <div>
-                <h3>Zeg: plak a1</h3>
-                <textarea id="kopieerArea1"></textarea>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h3>Zeg: kopieer a2</h3>
-                <textarea id="textArea2">Hier staat ook wat tekst die aanpasbaar is.</textarea>
-            </div>
-            <div>
-                <h3>Zeg: plak a2</h3>
-                <textarea id="kopieerArea2"></textarea>
-            </div>
-        </section>
         <div id="searchBox">
-            <input type="text" id="input" placeholder="Search" />
-            <input type="button" id="searchBtn" value="Search" />
+            <input type="text" id="input" placeholder="Zoek" />
+            <input type="button" id="searchBtn" value="Zoek" />
         </div>
         <div id="content">
+            <h3>Zeg: plak</h3>
             <p id="p" contenteditable="true">
             </p>
+        </div>
+        <section>
+            <div>
+                <h3>Zeg: kopieer </h3>
+                <textarea id="textArea1">Ik heb hier wat tekst neergezet. Deze tekst is ook aanpasbaar!</textarea>
+            </div>
+        </section>
+        <div class="goblintime">
+            <img src="img/goblintime.gif">
+        </div>
+        <div class="sword">
+            <img src="img/sword.png">
+        </div>
+        <div class="sword2">
+            <img src="img/sword.png">
         </div>
     </main>
 </body>
