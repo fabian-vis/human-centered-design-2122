@@ -106,6 +106,10 @@ Ik ga het meer voor Eric maken. Ik had vernomen dat hij van Dungeons and dragons
 - Is dit fijn te bedienen
 - Is er voldoende feedback
 
+#### Feedback eigen prototype week 3 
+
+Design was leuk. Grappig poppetje toegevoegd. Functionaliteit van het selecteren vond Eric oprecht handig dus dat was top. Alleen was de volgorde niet helemaal duidelijk. Ik had het kopieer gedeelte eigenlijk boven het zoek gedeelte moeten zetten omdat dat iets is wat eerder gedaan moet worden. Ik kwam hierachter door Eric eerst zelf door de applicatie heen te laten gaan om te kijken of die het begreep en het was duidelijk dat hij dacht dat hij eerst iets moest zoeken.
+
 ### Design Principes
 
 Hieronder ga ik per principe uitleggen hoe ik deze heb toegepast op mijn eigen project. Per principe leg ik uit waar ik op gelet heb en hoe ik deze heb toegepast.
