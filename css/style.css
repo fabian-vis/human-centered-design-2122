@@ -309,6 +309,17 @@ input {
         height: auto;
         transform: rotate(-45deg)
     }
+    @media only screen and (max-width: 768px) {
+        #searchBox {
+            width: 80%;
+        }
+        #content {
+            width: 80%;
+        }
+        main section div {
+            width: 80%;
+        }
+       }
 
     @media only screen and (max-width: 1260px) {
        .sword {
@@ -318,5 +329,6 @@ input {
         display: none;
         }
       }
+
 
   
