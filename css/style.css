@@ -97,7 +97,10 @@ main section div textarea {
 
 
 #vbtn:focus {
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+    outline-offset: 8px;
+    outline: 5px dashed blue;
+    background: radial-gradient(circle, #e52b2b, #8b0000);
+    box-shadow: 0px 0 5px 5px rgba(255,255,255,0.2);
 } 
 
 #searchBox {
@@ -121,6 +124,12 @@ main section div textarea {
     color: #ffc000;
     font-family: 'Macondo', cursive;
 }
+#input:focus {
+    outline-offset: 8px;
+    outline: 5px dashed blue;
+    box-shadow: 0px 0 5px 5px rgba(255,255,255,0.2);
+    background: radial-gradient(circle, #8C8C8C, #8C8C8C);
+}
 #searchBtn {
     width: 20%;
     letter-spacing: 2px;
@@ -139,6 +148,12 @@ main section div textarea {
     border-bottom: 4px groove #ffb000;
     box-shadow: inset 0px 0px 5px 3px rgba(1,1,1,0.3);
 }
+#searchBtn:focus {
+    outline-offset: 8px;
+    outline: 5px dashed blue;
+    background: radial-gradient(circle, #e52b2b, #8b0000);
+    box-shadow: 0px 0 5px 5px rgba(255,255,255,0.2);
+} 
 input {
     font-size: 20px;
 }
@@ -179,6 +194,18 @@ input {
     color: #ffc000;
     font-family: 'Macondo', cursive;
     padding: 12px 20px;
+}
+#p:focus {
+    outline-offset: 8px;
+    outline: 5px dashed blue;
+    box-shadow: 0px 0 5px 5px rgba(255,255,255,0.2);
+    background: radial-gradient(circle, #8C8C8C, #8C8C8C);
+}
+#textArea1:focus {
+    outline-offset: 8px;
+    outline: 5px dashed blue;
+    box-shadow: 0px 0 5px 5px rgba(255,255,255,0.2);
+    background: radial-gradient(circle, #8C8C8C, #8C8C8C);
 }
 
 #vbtn{

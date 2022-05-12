@@ -14,6 +14,26 @@ Bekijk de applicatie [hier](https://fabian-vis.github.io/human-centered-design-2
 
 ![Website Eric](img/websiteEric.png)
 
+### User Scenario
+
+Hier ga ik wat dieper in wie Eric is en wat hij uiteindelijk wil bereiken.
+
+#### Wie is Eric?
+
+Eric heeft een beperking. Hij kan zijn armen niet helemaal goed bewegen. Wel heeft hij volledige controle over zijn spieren. In het dagelijks leven zet hij zich in voor de toegangelijkheid van de gemeente Amsterdam. Denk hierbij aan de opstapjes voor rolstoelen bij stoepen of bij perrons voor de tram. Hij houdt van spelletjes, lezen, films en muziek.
+
+#### Wat wil Eric bereiken?
+
+Hij wil doormiddel van voice text kunnen kopieren, plakken en selecteren.
+
+#### Hoe kan Eric dit bereiken?
+
+Ik heb voice commandos ingebouwd die hij kan opnoemen waardoor hij bijvoorbeeld een text kan kopieren.
+
+#### Waarom wil Eric mijn site gebruiken?
+
+Mijn applicatie is gebouwd om Eric het leven een stuk gemakkelijker te maken.
+
 ## Testen
 
 ### Week 1
@@ -44,7 +64,7 @@ De eerste dag stond in het teken van onderzoek doen naar hoe ik doormiddel van v
 
 ### Week 2
 
-Wat ik nu wil gaan maken is dat Eric doormiddel praten een gedeelte kan highlighten van text zodat deze makkelijk aanpasbaar is. Ik heb hier een hele middag aan besteed maar het is mij niet gelukt om dit te maken. Wat ik wel gemaakt heb is een plek waar tekst geplakt kan worden en dan kan Eric zoeken op een specifiek iets (door te typen of Voice gebruiken)en dit highlighten.
+Wat ik nu wil gaan maken is dat Eric doormiddel van praten een gedeelte kan highlighten van text zodat deze makkelijk aanpasbaar is. Ik heb hier een hele middag aan besteed maar het is mij niet gelukt om dit te maken. Wat ik wel gemaakt heb is een plek waar tekst geplakt kan worden en dan kan Eric zoeken op een specifiek iets (door te typen of Voice gebruiken)en dit highlighten.
 
 #### Wat wil ik weten van Eric
 
@@ -75,3 +95,64 @@ Eric vond het specifiek highlighten van een woord in een grote lap text erg hand
 #### Week 2 resultaat:
 
 ![Resultaat week 2](img/resultaatweek2.png)
+
+### Week 3
+
+Ik ga het meer voor Eric maken. Ik had vernomen dat hij van Dungeons and dragons houd dus ga ik proberen een beetje die style aan te houden. Ook ga ik de feedback wat beter maken zoals bij de button en ik ga wat aan de layout veranderen. Verder denk ik niet dat ik qua technische dingen nog wat ga implementeren. Simpel weg omdat ik daar niet aan toe ga komen en het te hoog gegrepen is voor mij.
+
+#### Wat wil ik weten van Eric
+
+- Wat vind hij het design
+- Is dit fijn te bedienen
+- Is er voldoende feedback
+
+### Design Principes
+
+Hieronder ga ik per principe uitleggen hoe ik deze heb toegepast op mijn eigen project. Per principe leg ik uit waar ik op gelet heb en hoe ik deze heb toegepast.
+
+#### Study Situation
+
+Ik ben Eric door de weken gaan observeren en vragen gesteld om er achter te komen hoe hij zelf het liefst een computer bediend. We kwamen er echter al snel achter dat deze opdracht eigenlijk niet persee bedoeld was voor Eric zelf maar voor een kennis van hem die een ergere vorm van een spierziekte heeft dan Eric. Voor de opdracht probeer ik een beetje rekening te houden met beide. Dit omdat we de kennis van Eric nooit in het echt hebben kunnen ontmoeten en haar vragen hebben kunnen stellen.
+
+- Eric kan zijn arm niet helemaal goed bewegen. Wel heeft hij volledige controle over zijn spieren. Ook is hij niet spastisch en kan hij een telefoon prima bedienen. Wat hij wel lastig vind is scrollen met twee vingers.
+
+- Eric bediend een muis doormiddel van
+
+- De persoon waarvoor het is kan niet goed een muis bedienen. Ze kan het wel maar liever niet. Daarom is het een goed idee om zoveel mogelijk met voice te doen en de handelingen die met muis moeten zo dicht mogelijk bij elkaar te zetten.
+
+- We kwamen er al snel achter dat de opdracht niet alleen ging over knippen en plakken. Eric wilde graag ook dat het selecteren van specifieke woorden een feature werd binnen de applicatie
+
+##### Toepassing
+
+Doordat het voor Eric en voor die kennis aardig lastig is om een website goed te navigeren met muis heb ik de focus voornamelijk gelegd op Voice. Wegens privacy heb ik ervoor gekozen om niet de microfoon altijd aan te houden. Hierdoor moet je nog wel op een knop drukken om de microfoon aan te zetten maar Eric zei dat dit niet echt een probleem is. Wel heb ik ervoor gezorgd dat de knoppen dichtbij elkaar staan. Dit gaf Eric ook als feedback omdat het dan een stuk makkelijker is om de website te bedienen.
+
+Het selecteren van een specifiek word is mij helaas niet gelukt. Wel heb ik een feature toegevoegd die een specifiek woord wat gezegd is highlight binnen een geplakte tekst. Eric gaf zelf aan dat dit een fijne feature is dus daar ben ik erg blij mee.
+
+#### Ignore Conventions
+
+Ik heb hierbij gekeken naar de standaard manier van iets kopieren en plakken. Normaal gesproken selecteer je een stukje tekst, kopieer je deze met je toetsenbord of muis, navigeer je naar de plek waar je deze tekst wil plakken en gebruik je weer je toetsenbord of muis om de tekst te plakken. Dit kan helaas niet gebruikt worden omdat een muis niet goed bedienbaar is voor Eric.
+
+##### Toepassing
+
+Dus alles moet over het algemeen met voice worden bediend. Hierdoor verwaarloos ik de normale "conventions".
+
+#### Prioritise Identity
+
+Hier heb ik voornamelijk gekeken naar hoe ik het zo specifiek mogelijk voor Eric kan maken.
+
+- Eric houd van spelletje, muziek, films en lezen
+- Dungeons and Dragons is een spel wat hij veel speelt
+- Heeft een microsoft surface pro laptop
+- Gebruikt microsoft edge als browser maar soms ook in Google Chrome
+
+##### Toepassing
+
+Het leek mij een goed idee om de website een persoonlijke twist te geven. Ik heb ervoor gekozen om een soort fantasty dungeon style te gebruiken. Dit omdat Eric aangaf dat hij hield van spelletjes, films en dungeons and dragons.
+
+#### Add Nonsense
+
+Hier gaat het over het toevoegen van onnozele dingen.
+
+#### Toepassing
+
+Ik heb een kleine goblin onderin het scherm toegevoegd die infinite rondjes rent in en uit het scherm. Als er dan op de microfoon knop word gedrukt stopt hij en gaat hij als het waren luisteren naar wat er gezegd word.
