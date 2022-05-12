@@ -106,6 +106,10 @@ Ik ga het meer voor Eric maken. Ik had vernomen dat hij van Dungeons and dragons
 - Is dit fijn te bedienen
 - Is er voldoende feedback
 
+#### Feedback eigen prototype week 3 
+
+Design was leuk. Grappig poppetje toegevoegd. Functionaliteit van het selecteren vond Eric oprecht handig dus dat was top. Alleen was de volgorde niet helemaal duidelijk. Ik had het kopieer gedeelte eigenlijk boven het zoek gedeelte moeten zetten omdat dat iets is wat eerder gedaan moet worden. Ik kwam hierachter door Eric eerst zelf door de applicatie heen te laten gaan om te kijken of die het begreep en het was duidelijk dat hij dacht dat hij eerst iets moest zoeken.
+
 ### Design Principes
 
 Hieronder ga ik per principe uitleggen hoe ik deze heb toegepast op mijn eigen project. Per principe leg ik uit waar ik op gelet heb en hoe ik deze heb toegepast.
@@ -157,7 +161,7 @@ Hier gaat het over het toevoegen van onnozele dingen.
 
 Ik heb een kleine goblin onderin het scherm toegevoegd die infinite rondjes rent in en uit het scherm. Als er dan op de microfoon knop word gedrukt stopt hij en gaat hij als het waren luisteren naar wat er gezegd word.
 
-### Conlusie
+### Conclusie
 
 Ik hoop dat Eric wat heeft aan mijn applicatie. Ik heb veel nieuwe skills geleerd. Voordat ik begon aan dit vak heb ik eigenlijk al deze tijd een applicatie gemaakt voor "gebruikers". Vaak wist je wel ongeveer wat ze wilde maar had je vaak zelf ook nog heel veel in breng en te zeggen. Nu moest ik voor 1 iemand iets maken. Dit werkte toch echt wel een stuk anders. Ik merkte dat naarmate ik meerdere keren testte met Eric ik er achter kwam wat hij ECHT wilde en wat zijn hobby's waren.
 
