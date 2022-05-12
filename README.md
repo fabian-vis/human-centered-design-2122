@@ -156,3 +156,13 @@ Hier gaat het over het toevoegen van onnozele dingen.
 #### Toepassing
 
 Ik heb een kleine goblin onderin het scherm toegevoegd die infinite rondjes rent in en uit het scherm. Als er dan op de microfoon knop word gedrukt stopt hij en gaat hij als het waren luisteren naar wat er gezegd word.
+
+### Conlusie
+
+Ik hoop dat Eric wat heeft aan mijn applicatie. Ik heb veel nieuwe skills geleerd. Voordat ik begon aan dit vak heb ik eigenlijk al deze tijd een applicatie gemaakt voor "gebruikers". Vaak wist je wel ongeveer wat ze wilde maar had je vaak zelf ook nog heel veel in breng en te zeggen. Nu moest ik voor 1 iemand iets maken. Dit werkte toch echt wel een stuk anders. Ik merkte dat naarmate ik meerdere keren testte met Eric ik er achter kwam wat hij ECHT wilde en wat zijn hobby's waren.
+
+Ik merkte ook bij de eerste keer testen dat ik soms nog een beetje teveel voor zei en niet echt goed testte. Met dit ingedachte had ik de tweede test afgelegd en merkte ik dat ik uit deze test een stuk meer interessante dingen haalde. Ik heb dus geleerd dat ik niet zoveel moet voorzeggen en de gebruiker hard op moet zijn/haar gedachte gang moet laten uitspreken.
+
+Als ik wat meer tijd had wilde ik mij graag nog verdiepen in de voice commando's. Ik wilde bijvoorbeeld nog toevoegen dat er doormiddel van voice een bepaald woord geselecteerd kon worden.
+
+Al met al ben ik wel trots op wat ik na deze 3 weken geleerd en opgeleverd heb.
